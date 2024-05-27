@@ -1,3 +1,15 @@
+1. EDA, PCA, Clustering
+2. Logistic regression, Lasso with cross validation
+3. Logistic regression, Lasso with validation set
+4. PCR (principal component analysis)
+5. SVM (support vector machine) on train_set and on train_set_PCA
+6. Calssification tree on train_set and on train_set_PCA
+7. Random Forest and Bagging
+8. EDA on Cancer images (COLOR)
+9. CNN with Pytorch on Cancer Images (COLOR)
+10. EDA and TensorFlow CNN on Cancer Images (MASK) Not good results
+11. CNN with Pytorch on Cancer Images (MASK)
+
 This project aims to analyze oncological data and images to train machine learning and deep learning algorithms for binary classification 
 of benign and malignant cancers. Specifically, the datasets used consist of a CSV file containing numerical data extracted from tumor images,
 representing mostly geometric features of the tumor mass. (https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset) 
@@ -15,7 +27,6 @@ one for MASK images and the other for grayscale images.
 
 The results highlighted the importance of the tumor mass structure in predicting its nature,
 aiming to be a straightforward application of machine learning in the oncological field.
-
 
 
 
