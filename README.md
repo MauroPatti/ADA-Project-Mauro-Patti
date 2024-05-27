@@ -10,7 +10,8 @@ classification trees, and random forests are employed. All results are evaluated
 and parameter tuning is often proposed, including tree depth, model complexity, lasso alpha, or SVM kernel.
 
 Subsequently, the images from the other dataset were analyzed, and convolutional neural networks were trained using packages
-such as Keras, TensorFlow, and PyTorch with 10 or 20 epochs for binary classification. 
+such as Keras, TensorFlow, and PyTorch with 10 or 20 epochs for binary classification. There are two separate folders containing images: 
+one for MASK images and the other for grayscale images.
 
 The results highlighted the importance of the tumor mass structure in predicting its nature,
 aiming to be a straightforward application of machine learning in the oncological field.
